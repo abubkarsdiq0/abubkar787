@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prime Business & Shops</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Prime Business & Shops</h1>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Signup</a>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to the Biggest Business Hub</h2>
+        <p>Find shops, services, and everything you need!</p>
+        <a href="shop.html" class="btn">Browse Shops</a>
+    </section>
+</body>
+</html>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+}
